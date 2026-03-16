@@ -13,9 +13,9 @@
         rel="stylesheet">
 
     <!-- daisy-ui and tailwind link -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4/dist/full.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
 
     <style>
         .poppins {
@@ -74,9 +74,98 @@
                 </div>
             </div>
         </nav>
+        <!-- slider section start  -->
+        <section class="my-12 bg-[rgba(231,111,81,0.1)] py-24">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row items-center gap-6 px-2 lg:px-32">
+                        <div class="flex-1 space-y-6 text-center lg:text-left">
+                            <h1 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                            <p class="text-base text-[rgba(0, 0, 0, 0.8)]">Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button
+                                class="btn btn-primary bg-button-primary font-semibold text-xl text-white">Purses</button>
+                        </div>
+                        <div class="flex-1">
+                            <img src="images/slider/bike1.png" class="w-full" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle text-4xl">❮</a>
+                        <a href="#slide2" class="btn btn-circle text-4xl">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row items-center gap-6 px-2 lg:px-32">
+                        <div class="flex-1 space-y-6 text-center lg:text-left">
+                            <h1 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                            <p class="text-base text-[rgba(0, 0, 0, 0.8)]">Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button
+                                class="btn btn-primary bg-button-primary font-semibold text-xl text-white">Purses</button>
+                        </div>
+                        <div class="flex-1">
+                            <img src="images/slider/bike2.png" class="w-full" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle text-4xl">❮</a>
+                        <a href="#slide3" class="btn btn-circle text-4xl">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row items-center gap-6 px-2 lg:px-32">
+                        <div class="flex-1 space-y-6 text-center lg:text-left">
+                            <h1 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                            <p class="text-base text-[rgba(0, 0, 0, 0.8)]">Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button
+                                class="btn btn-primary bg-button-primary font-semibold text-xl text-white">Purses</button>
+                        </div>
+                        <div class="flex-1">
+                            <img src="images/slider/bike3.png" class="w-full" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle text-4xl">❮</a>
+                        <a href="#slide4" class="btn btn-circle text-4xl">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row items-center gap-6 px-2 lg:px-32">
+                        <div class="flex-1 space-y-6 text-center lg:text-left">
+                            <h1 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                            <p class="text-base text-[rgba(0, 0, 0, 0.8)]">Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button
+                                class="btn btn-primary bg-button-primary font-semibold text-xl text-white">Purses</button>
+                        </div>
+                        <div class="flex-1">
+                            <img src="images/slider/bike4.png" class="w-full" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle text-4xl">❮</a>
+                        <a href="#slide1" class="btn btn-circle text-4xl">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-    <main>
-
+    <main class="container mx-auto">
+        <!-- Fetured Bikes In This Year section start  -->
+        <section class="my-20">
+            <div class="text-center mb-11">
+                <h1 class="text-4xl lg:text-5xl font-semibold mb-2">Featured Bikes In This Year</h1>
+                <p class="text-sm font-bold text-button-primary">Best bike collection</p>
+                <div class="divider divider-error w-14 mx-auto m-0"></div>
+            </div>
+            <div class="grid grid-col lg:grid-cols-3 justify-center space-y-8 lg:space-y-0">
+                <img  class="grayscale" src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+                <img class="grayscale" src="images/others/feature-bike.png" alt="">
+            </div>
+        </section>
     </main>
     <footer>
 
